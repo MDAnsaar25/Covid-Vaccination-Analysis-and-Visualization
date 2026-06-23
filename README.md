@@ -38,7 +38,7 @@ The goal is to extract meaningful insights using Python data analysis libraries 
 
 Load the dataset directly from URL:python   url = "https://github.com/MDAnsaar25/Covid-Vaccination-Analysis-and-Visualization/blob/main/country_vaccinations.csv"
    df = pd.read_csv(url)Run the notebook cells sequentially to reproduce the analysis and visualizations.Dataset
-The notebook uses the Our World in Data COVID-19 Vaccinations Dataset, which is updated daily.Dataset link: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinationsNo local files are required. Everything is loaded directly in Colab.Sample Visualizations
+The notebook uses the Our World in Data COVID-19 Vaccinations Dataset, which is updated daily.Dataset link: https://github.com/MDAnsaar25/Covid-Vaccination-Analysis-and-Visualization/blob/main/country_vaccinations.csv  No local files are required. Everything is loaded directly in Colab.Sample Visualizations
 Line chart of cumulative vaccinations over time for top 10 countriesBar chart comparing vaccination percentage by countryHeatmap of vaccination rates across regionsScatter plot of GDP per capita vs vaccination rateRequirements
 All dependencies are listed at the top of the notebook. No requirements.txt needed since Colab handles installation.Future Improvements
 Add interactive dashboards using PlotlyInclude booster dose analysisMap-based visualization with GeoPandas/Plotly ChoroplethPredict future vaccination coverage using simple forecasting modelsContributing
